@@ -92,7 +92,7 @@ public class RemoteUserAdapter extends AbstractUserAdapterFederatedStorage {
         logger.infof("getRequiredActionsStream() called for user %s", remoteUser.getUsername());
         return Stream.empty();
     }
-
+    
     @Override
     public void addRequiredAction(String action) {
     }
